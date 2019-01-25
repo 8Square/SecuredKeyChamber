@@ -67,7 +67,7 @@ Java_com_a8squarei_securedkeychambermodule_SecuredKeyChamber_getKey(
     //must be either 16,24 or 32 bytes/character
     //we are using 24 bytes
     //which then becomes 24*8 = 192 bits
-    return env->NewStringUTF("8sqreprjtedkeyAbc!@#xyz=");
+    return env->NewStringUTF("add key here eg;8sqreprjtedkeyAbcabcdef=");
 }
 
 extern "C"
@@ -76,7 +76,7 @@ Java_com_a8squarei_securedkeychambermodule_SecuredKeyChamber_getInitVector(
         JNIEnv *env,
         jobject /*this*/) {
 
-    return env->NewStringUTF("encryptionIntVec");
+    return env->NewStringUTF("add your own ivParameterIspec");
 }
 
 extern "C"
@@ -85,7 +85,7 @@ Java_com_a8squarei_securedkeychambermodule_SecuredKeyChamber_getAlgorithm(
         JNIEnv *env,
         jobject /*this*/) {
 
-    return env->NewStringUTF("AES");
+    return env->NewStringUTF("Add your own algorithm");
 }
 
 extern "C"
@@ -94,7 +94,7 @@ Java_com_a8squarei_securedkeychambermodule_SecuredKeyChamber_getCharSet(
         JNIEnv *env,
         jobject /*this*/) {
 
-    return env->NewStringUTF("UTF-8");
+    return env->NewStringUTF("add charset eg;UTF-8");
 }
 
 extern "C"
@@ -103,6 +103,6 @@ Java_com_a8squarei_securedkeychambermodule_SecuredKeyChamber_getTransformation(
         JNIEnv *env,
         jobject /*this*/) {
 
-    return env->NewStringUTF("AES/CBC/PKCS5PADDING");
+    return env->NewStringUTF("add your own transformation");
 }
 

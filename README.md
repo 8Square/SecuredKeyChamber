@@ -29,7 +29,7 @@ String decryptedMessage = keyChamber.decrypt(encryptedMessage);
 ```
 
 ### Advanced
-All the parameters required for AES encryption and decryption are written in C++, which makes the SecuredKeyChamber Highly secured. And good news is it is hard to deassemble the .so file, `.so` file contains the jni functions which provides the required parameters (Key,ivParameterIspec,Charset,Algorith and transformation) for AES encryption and decryption.
+All the parameters required for AES encryption and decryption are written in C++, which makes the SecuredKeyChamber Highly secured. And good news is it is hard to deassemble the `.so` file, `.so` file contains the jni functions which provides the required parameters (Key,ivParameterIspec,Charset,Algorith and transformation) for AES encryption and decryption.
 
 If you want to customize the above parameters you can modify the `securedkeychambermodule` with desired parameters.
 

@@ -5,7 +5,7 @@ A better way to Encrypt and Decrypt the String values.
 Encrypt and Decrypt the messages with **[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)**(Advanced Encryption Standard) Algorithm.
 
 ### Install And Setup
-1. Add the **securedkeychambermodule-release.aar** to your libs directory(find under app/libs)
+1. Add the **`securedkeychambermodule-release.aar`** to your libs directory(find under app/libs)
 2. Add the aar file to your app level build gradle
 
 ```
